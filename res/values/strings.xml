@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">com.jiankong</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="net_title">网络连接</string>
+    <string name="net_content">是否设置GPRS或WIFI?</string>
+    <string name="gprs_string">GPRS</string>
+    <string name="wifi_string">WIFI</string>
+    <string name="cancel_string">取消</string>
+    <string name="net_setting">网络没链接</string>
+    <string name="wifi_toast">请开启WIFI网络</string>
+    
+    <!-- add by fujun -->
+    <string name="switch_to_one">切换为一个通道</string>
+    <string name="switch_to_four">切换为四个通道</string>
+    <string name="switch_to_nine">切换为九个通道</string>
+    <string name="alert_dialog_title">设置通道数目(1, 4, 9)</string>
+    <string name="alert_dialog_message">通道数目</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="one_item">单通道显示</string>
+    <string name="four_item">四通道显示</string>
+    <string name="nine_item">九通道显示</string>
+
+</resources>

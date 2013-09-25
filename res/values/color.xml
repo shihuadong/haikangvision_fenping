@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bk_color">#191919</color>
+    <color name="font_color">#7f7f7f</color>
+    <color name="title_color">#ebebeb</color>
+    <color name="mulu_color">#ffffff</color>
+
+    <drawable name="bk_drawable">#191919</drawable>
+
+</resources>

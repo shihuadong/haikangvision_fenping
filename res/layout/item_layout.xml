@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<include 
+	    android:id="@+id/one_item_layout"
+	    layout="@layout/one_item_layout" />
+	<include 
+	    android:id="@+id/four_item_layout"
+	    layout="@layout/four_item_layout" />
+	<include 
+	    android:id="@+id/nine_item_layout"
+	    layout="@layout/nine_item_layout" />
+    
+</FrameLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" >
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" >
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" >
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+        <SurfaceView
+                android:id="@+id/surfaceview_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0000ff00" />
+        
+    </LinearLayout>
+
+</LinearLayout>

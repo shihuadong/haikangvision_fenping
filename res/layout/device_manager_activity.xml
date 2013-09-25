@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_background"
+        android:gravity="center"
+        android:text="设备管理"
+        android:textColor="@color/title_color"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/manager_add_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="添加设备"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@drawable/line" />
+
+    <ListView
+        android:id="@+id/manager_listview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:listSelector="@drawable/hover_button" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="账户信息"
+        android:textColor="@color/title_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/device_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入设备名称"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/ip_model_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:spinnerMode="dropdown" >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/ip_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入Ip地址"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/port_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入端口号"
+        android:includeFontPadding="false"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/user_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入用户名"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="请输入密码"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:password="true"
+        android:textColor="@color/font_color"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok_btn_id"
+            android:layout_width="150px"
+            android:layout_height="70px"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_selector"
+            android:text="确定"
+            android:textColor="@color/font_color"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/cancel_btn_id"
+            android:layout_width="150px"
+            android:layout_height="70px"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_selector"
+            android:text="取消"
+            android:textColor="@color/font_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
